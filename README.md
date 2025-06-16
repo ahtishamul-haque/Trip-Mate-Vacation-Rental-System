@@ -12,6 +12,7 @@ A full stack web application built with Node.js, Express, and other modern tools
 
 
 #Project Structure
+.
 ├── app.js # Entry point of the application
 ├── controllers/ # Business logic
 ├── models/ # Mongoose or DB schemas
