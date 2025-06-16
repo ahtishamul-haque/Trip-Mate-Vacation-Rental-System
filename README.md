@@ -12,17 +12,17 @@ A full stack web application built with Node.js, Express, and other modern tools
 
 
 # Project Structure
-├── app.js # Entry point of the application
-├── controllers/ # Business logic
-├── models/ # Mongoose or DB schemas
-├── routes/ # Route definitions
-├── views/ # Templates
-├── public/ # Static files (CSS, JS, images)
-├── utils/ # Utility functions
-├── middleware.js # Custom middleware
-├── cloudConfig.js # Cloud service setup (e.g., Cloudinary)
-├── schema.js # Validation or DB schemas
-├── .env # Environment variables
-├── .gitignore # Git ignored files
-├── package.json # Project metadata and dependencies
-└── README.md # This file
+- app.js # Entry point of the application
+- controllers/ # Business logic
+- models/ # Mongoose or DB schemas
+- routes/ # Route definitions
+- views/ # Templates
+- public/ # Static files (CSS, JS, images)
+- utils/ # Utility functions
+- middleware.js # Custom middleware
+- cloudConfig.js # Cloud service setup (e.g., Cloudinary)
+- schema.js # Validation or DB schemas
+- .env # Environment variables
+- .gitignore # Git ignored files
+- package.json # Project metadata and dependencies
+- README.md # This file
