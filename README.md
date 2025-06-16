@@ -49,7 +49,7 @@ A full stack web application built with Node.js, Express, and other modern tools
 
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
 
 
