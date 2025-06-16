@@ -26,3 +26,34 @@ A full stack web application built with Node.js, Express, and other modern tools
 - .gitignore #Git ignored files
 - package.json #Project metadata and dependencies
 - README.md #This file
+
+
+# Install Dependencies
+- npm install
+
+
+# Start the Server
+- node app.js
+
+
+# Tech Stack
+- Backend: Node.js, Express.js
+- Database: MongoDB (with Mongoose)
+- Templating: EJS
+- Utilities: dotenv, nodemon, cloudinary, etc.
+- Deployment: Render
+
+
+# Live Demo
+🔗 View live site
+
+
+# License
+This project is licensed under the MIT License.
+
+
+
+
+
+
+
