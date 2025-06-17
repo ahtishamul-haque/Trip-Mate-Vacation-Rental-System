@@ -31,10 +31,7 @@ main()
   });
 
 async function main() {
-  await mongoose.connect(dbUrl, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+  await mongoose.connect(dbUrl);
 }
 
 app.set("view engine", "ejs");
