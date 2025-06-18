@@ -88,7 +88,7 @@ app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
 app.get("/", (req, res) => {
-  res.send("Root route is working!");
+  res.render("index.ejs");
 });
 
 app.use((err, req, res, next) => {
