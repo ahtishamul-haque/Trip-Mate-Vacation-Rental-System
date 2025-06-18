@@ -87,20 +87,15 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
-//app.get("/", (req, res) => {
-//  res.render("listings/index");
-//});
+app.get("/", (req, res) => {
+  res.send("👋 Welcome to the Trip Mate App!");
+});
 
 app.use((err, req, res, next) => {
   let {statusCode = 500, message = "something went wrong!"} =err;
   res.status(statusCode).render("error.ejs", {message});
 });
 
-//app.listen(8080, () => {
-//  console.log("server is listening to port 8080");
-//});
-
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+app.listen(8080, () => {
+  console.log("server is listening to port 8080");
 });
