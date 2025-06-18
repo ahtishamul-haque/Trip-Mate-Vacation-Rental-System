@@ -88,7 +88,7 @@ app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
 app.get("/", (req, res) => {
-  res.render("views/listings/index.ejs");
+  res.render("show.ejs");
 });
 
 app.use((err, req, res, next) => {
