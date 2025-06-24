@@ -30,20 +30,6 @@ A full-stack web application built with Node.js, Express, and other modern tools
 ├── README.md          #This file
 ```
 
-## Getting Started
-
-### 1. Install Dependencies
-
-```bash
-npm install
-```
-
-### 2. Start the Server
-
-```bash
-node app.js
-```
-
 ## Deployment
 
 It uses:
