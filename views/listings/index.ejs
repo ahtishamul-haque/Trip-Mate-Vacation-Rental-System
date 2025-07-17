@@ -26,7 +26,7 @@
     .tax-info{
       display: none;
     }
-
+    
     .tax-toggle{
       border: 1px solid #D4AF37;
       border-radius: 1rem; 
@@ -35,6 +35,18 @@
       padding: 1rem;
       display: flex;
       align-items: center;
+    }
+
+    /* Responsive Styles for screen widths less than 500px */
+    @media (max-width: 500px) {
+      .filter {
+        margin-left: 13px !important;
+        margin-top: 10px !important;
+      }
+
+      .tax-toggle {
+        margin-left: 10px !important;
+      }
     }
   </style>
   <div id="filters">
