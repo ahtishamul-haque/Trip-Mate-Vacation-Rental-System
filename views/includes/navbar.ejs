@@ -38,6 +38,54 @@
   padding: 8px 12px;
   border-radius: 25px;
   }
+
+  /* Responsive Styles for screen widths less than 500px */
+  @media (max-width: 500px) {
+    .search-m {
+      padding-top: 0.5rem;
+      width: 100%;
+    }
+
+    .search-inp {
+      padding: 0.4rem 1rem;
+      width: 80%;
+      font-size: 0.9rem;
+      margin-left: 20px;
+    }
+
+    .search-btn {
+      margin-top: 0.5rem;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .ms-auto {
+      width: 50% !important;
+      text-align: center !important;
+      background-color: white !important;
+      border: 1px solid #D4AF37;
+    }
+
+    .search-btn {
+      height: 25px;
+      width: 50%;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    }
+
+    form.d-flex {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.5rem;
+    }
+
+    .explore {
+      font-size: 1.1rem;
+      text-align: right;
+      width: 100%;
+      color: transparent !important;
+    }
+  }
 </style>
 
 <nav class="navbar navbar-expand-md bg-body-light sticky-top border-bottom">
